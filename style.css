@@ -1,9 +1,11 @@
+/* definição da classe página, que altera a fonte do texto. */
 .pagina {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* definição da classe center, que centraliza o texto. */
 .center     { 
     text-align: center; 
+ /* definição da classe justified, que justifica o texto. */
 }
 .justified {
     text-align: justify;

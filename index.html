@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- definindo uso do UTF-8, título do site e referência ao arquivo style.css -->
     <meta charset="UTF-8">
     <title>Atividade 3 </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <!-- declaração como class pagina para mudança da fonte em todo o body. -->
+    <body class="pagina"></body>
+
+     <!-- exemplos de seções e subseções -->
     <header>
         <h1 align = "center">Título da Página H1</h1>
         <h2 align = "left"  >Subtítulo H2</h2>
@@ -13,18 +18,20 @@
         <h4> Subceção H4</h4>
         <h5> Detalhe H5</h5>
         <h6> Nota H6</h6>
+        <!-- barra de navegação que permite o usuário ir diretamente aos posts, a lateral ou o rodapé. -->
     </header>
     <nav> 
         <p>
     <a href="#Posts">Posts</a> |
     <a href="#Lateral">Lateral</a> |
     <a href="#Rodape">Rodapé</a> 
-    
+    <!-- seção de posts -->
     <section id="Posts">
         <article class="post">  
             <header>
                 <h2> Meu blog - Primeiro Post</h2>
             </header>
+            <!-- exemplos de diferentes tipos de texto. -->
     <p>
         <strong> Texto usando negrito, </strong>
         <em> itálico, </em>
@@ -33,10 +40,12 @@
         <sub> Texto subscrito, </sub>
         <sup> Texto sobrescrito. </sup>
 </p>
+    <!-- exemplo de mudança de cor e tamanho de texto. -->
         <p style="color: #0059be; fronto-size 50px;">
             Texto Estilizado
         </p>
         </article>
+        <!-- exemplo de texto estilizado através do css -->
         <div class="center"> Este texto esta centralizado. </div>
             <p>
                 <p class="justify"> Paragrafo para demonstrar o texto justificado .<br>
@@ -44,12 +53,14 @@
 
 
             </p>
+             <!-- criação de barra lateral -->
              <aside id="lateral">
                 <h3>Conteúdo Relacionado</h3>
                 <p>Aqui vão links e recursos de conteúdos que não fazem parte da página deste site.</p>
             </aside>
 
     </section>
+    <!-- criação de rodapé. -->
     <footer id="rodape" class="center">
             <p>© 2025 – Exemplo didático de HTML da Aula 3</p>
         </footer>
